@@ -263,6 +263,21 @@ footer {
 }
 
 /* =========================
+   FOOTER LINK COLOR
+========================= */
+/* =========================
+   CONTACT LINKS
+========================= */
+#contact a {
+  color: #ffffff; /* bianco */
+  transition: 0.3s;
+}
+
+#contact a:hover {
+  color: #58a6ff; /* blu gradiente al passaggio */
+}
+
+/* =========================
    BADGE
 ========================= */
 .badge-container {
