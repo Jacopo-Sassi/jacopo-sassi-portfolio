@@ -1,0 +1,343 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #0d1117;
+  color: #e6edf3;
+  line-height: 1.6;
+}
+
+/* CONTAINER */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* =========================
+   NAVBAR
+========================= */
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  background: rgba(13, 17, 23, 0.85);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid #1f2937;
+  z-index: 1000;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 0;
+}
+
+.logo {
+  font-weight: 600;
+  font-size: 18px;
+  color: #58a6ff;
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #c9d1d9;
+  transition: 0.3s;
+  font-size: 14px;
+}
+
+.nav-links a:hover {
+  color: #58a6ff;
+}
+
+/* =========================
+   HERO
+========================= */
+
+.hero {
+  padding-top: 140px;
+  padding-bottom: 100px;
+}
+
+.hero-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.hero-text-container {
+  flex: 1;
+}
+
+.hero h1 {
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+.gradient {
+  background: linear-gradient(90deg, #58a6ff, #3fb950);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-sub {
+  margin-top: 25px;
+  max-width: 550px;
+  color: #9da7b3;
+  font-size: 18px;
+}
+
+.hero-buttons {
+  margin-top: 35px;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.btn-primary {
+  background: #238636;
+  color: white;
+  padding: 12px 22px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 14px;
+}
+
+.btn-primary:hover {
+  background: #2ea043;
+}
+
+.btn-secondary {
+  border: 1px solid #30363d;
+  padding: 12px 22px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #c9d1d9;
+  transition: 0.3s;
+  font-size: 14px;
+}
+
+.btn-secondary:hover {
+  border-color: #58a6ff;
+  color: #58a6ff;
+}
+
+/* FOTO PROFILO */
+
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-image img {
+  width: 320px;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 20px;
+  border: 1px solid #21262d;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+  transition: 0.4s ease;
+}
+
+.hero-image img:hover {
+  transform: scale(1.03);
+  border-color: #58a6ff;
+}
+
+/* =========================
+   SECTIONS
+========================= */
+
+.section {
+  padding: 100px 0;
+}
+
+.section.alt {
+  background-color: #161b22;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 50px;
+}
+
+/* =========================
+   SKILLS
+========================= */
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.skill-card {
+  background: #161b22;
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid #21262d;
+  transition: 0.3s;
+}
+
+.skill-card:hover {
+  border-color: #58a6ff;
+}
+
+/* =========================
+   PROJECTS
+========================= */
+
+.project-card {
+  background: #161b22;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  border: 1px solid #21262d;
+  transition: 0.3s;
+}
+
+.project-card:hover {
+  border-color: #3fb950;
+  transform: translateY(-3px);
+}
+
+.tech {
+  display: inline-block;
+  margin-top: 15px;
+  color: #58a6ff;
+  font-size: 14px;
+}
+
+.links {
+  margin-top: 15px;
+}
+
+.links a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #3fb950;
+  font-weight: 500;
+}
+
+/* =========================
+   CONTACT
+========================= */
+
+.contact {
+  text-align: center;
+}
+
+.availability {
+  margin-top: 20px;
+  color: #3fb950;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+  text-align: center;
+  padding: 40px 0;
+  font-size: 14px;
+  color: #6e7681;
+}
+
+/* =========================
+   RESPONSIVE BREAKPOINTS
+========================= */
+
+/* Large Desktop */
+@media (min-width: 1600px) {
+  .hero h1 {
+    font-size: 64px;
+  }
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .hero-flex {
+    gap: 40px;
+  }
+
+  .hero h1 {
+    font-size: 42px;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile Large */
+@media (max-width: 900px) {
+  .hero-flex {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-sub {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+  }
+
+  .hero-image img {
+    width: 240px;
+    height: 240px;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Mobile Small */
+@media (max-width: 500px) {
+  .hero {
+    padding-top: 120px;
+  }
+
+  .hero h1 {
+    font-size: 34px;
+  }
+
+  h2 {
+    font-size: 26px;
+  }
+
+  .nav-links {
+    display: none; /* navbar minimale su mobile */
+  }
+
+  .container {
+    width: 92%;
+  }
+
+  .project-card,
+  .skill-card {
+    padding: 20px;
+  }
+}
