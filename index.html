@@ -29,7 +29,7 @@
       rel="stylesheet"
     />
   </head>
-  <body>
+   <!-- Navbar -->
     <header class="navbar">
       <div class="container nav">
         <div class="logo">Jacopo.dev</div>
@@ -41,45 +41,33 @@
       </div>
     </header>
 
+    <!-- Hero -->
     <section class="hero">
       <div class="container hero-flex">
         <div class="hero-text-container">
-          <h1>
-            Backend & Full-Stack<br />
-            <span class="gradient">Developer</span>
-          </h1>
+          <h1>Backend & Full-Stack<br /><span class="gradient">Developer</span></h1>
           <p class="hero-sub">
-            Costruisco applicazioni web scalabili, API performanti e interfacce
-            moderne. Dal database alla UI, con architettura pulita e codice
-            manutenibile.
+            Costruisco applicazioni web scalabili, API performanti e interfacce moderne. Dal database alla UI, con architettura pulita e codice manutenibile.
           </p>
           <div class="hero-buttons">
             <a href="#projects" class="btn-primary">Vedi Progetti</a>
-            <a href="https://github.com/tuousername" class="btn-secondary"
-              >GitHub</a
-            >
+            <a href="https://github.com/tuousername" class="btn-secondary" target="_blank">GitHub</a>
           </div>
         </div>
-
         <div class="hero-image">
-          <img
-            src="assets/profile.jpg"
-            alt="Jacopo Sassi - Full Stack Developer"
-          />
+          <img src="assets/profile.jpg" alt="Jacopo Sassi - Full Stack Developer" />
         </div>
       </div>
     </section>
 
+    <!-- Skills -->
     <section id="skills" class="section">
       <div class="container">
         <h2>Tech Stack</h2>
         <div class="skills-grid">
           <div class="skill-card">
             <h3>Back-End</h3>
-            <p>
-              Java · SQL · NO SQL · REST API · MVC · Authentication · Php ·
-              Python
-            </p>
+            <p>Java · SQL · NoSQL · REST API · MVC · Authentication · PHP · Python</p>
           </div>
           <div class="skill-card">
             <h3>Front-End</h3>
@@ -93,17 +81,22 @@
       </div>
     </section>
 
+    <!-- Projects -->
     <section id="projects" class="section alt">
       <div class="container">
         <h2>Progetti Selezionati</h2>
 
         <div class="project-card">
+          <img src="assets/project1.jpg" alt="Screenshot Scalable REST API" class="project-screenshot"/>
           <h3>Scalable REST API</h3>
-          <p>
-            API modulare con autenticazione JWT e struttura MVC. Database
-            relazionale normalizzato e gestione ruoli.
-          </p>
-          <span class="tech">Java · SQL · REST</span>
+          <p><strong>Problema:</strong> Gestione dati lenta e non sicura per l’app aziendale.</p>
+          <p><strong>Soluzione:</strong> API modulare con autenticazione JWT e struttura MVC.</p>
+          <div class="badge-container">
+            <span class="badge">Java</span>
+            <span class="badge">SQL</span>
+            <span class="badge">REST</span>
+            <span class="badge">JWT</span>
+          </div>
           <div class="links">
             <a href="#">Live</a>
             <a href="#">GitHub</a>
@@ -111,26 +104,48 @@
         </div>
 
         <div class="project-card">
+          <img src="assets/project2.jpg" alt="Screenshot React Dashboard" class="project-screenshot"/>
           <h3>React Business Dashboard</h3>
-          <p>
-            Dashboard dinamica con fetch API e rendering dati real-time.
-            Componenti riutilizzabili e gestione stato.
-          </p>
-          <span class="tech">React · API · CSS</span>
+          <p><strong>Problema:</strong> Monitoraggio vendite manuale e lento.</p>
+          <p><strong>Soluzione:</strong> Dashboard dinamica con fetch API e componenti React riutilizzabili.</p>
+          <div class="badge-container">
+            <span class="badge">React</span>
+            <span class="badge">JavaScript</span>
+            <span class="badge">CSS</span>
+          </div>
           <div class="links">
             <a href="#">Live</a>
             <a href="#">GitHub</a>
           </div>
         </div>
+
+        <div class="project-card">
+          <img src="assets/project3.jpg" alt="Screenshot API Multi-Utente" class="project-screenshot"/>
+          <h3>API Multi-Utente Sicura</h3>
+          <p><strong>Problema:</strong> Necessità di API sicure e scalabili per app interne.</p>
+          <p><strong>Soluzione:</strong> REST API modulare con JWT e logging completo.</p>
+          <div class="badge-container">
+            <span class="badge">Java</span>
+            <span class="badge">SQL</span>
+            <span class="badge">REST</span>
+            <span class="badge">JWT</span>
+          </div>
+          <div class="links">
+            <a href="#">Live</a>
+            <a href="#">GitHub</a>
+          </div>
+        </div>
+
       </div>
     </section>
 
+    <!-- Contact -->
     <section id="contact" class="section">
       <div class="container contact">
         <h2>Contatti</h2>
-        <p>Email: tuaemail@email.com</p>
-        <p>LinkedIn: linkedin.com/in/tuoprofilo</p>
-        <p>GitHub: github.com/tuousername</p>
+        <p>Email: <a href="mailto:tuaemail@email.com">tuaemail@email.com</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/tuoprofilo" target="_blank">linkedin.com/in/tuoprofilo</a></p>
+        <p>GitHub: <a href="https://github.com/tuousername" target="_blank">github.com/tuousername</a></p>
         <p class="availability">🟢 Open to Junior / Stage / Collaboration</p>
       </div>
     </section>
@@ -138,5 +153,6 @@
     <footer>
       <p>© 2026 Jacopo Sassi</p>
     </footer>
+
   </body>
 </html>
