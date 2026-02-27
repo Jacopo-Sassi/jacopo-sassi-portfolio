@@ -23,6 +23,7 @@
       name="description"
       content="Full-Stack Developer specializzato in Java, SQL, React e architetture scalabili."
     />
+
     <link rel="stylesheet" href="style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
@@ -30,7 +31,9 @@
     />
     <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
   </head>
-   <!-- Navbar -->
+
+  <body>
+    <!-- Navbar -->
     <header class="navbar">
       <div class="container nav">
         <div class="logo">Jacopo Sassi</div>
@@ -46,17 +49,34 @@
     <section class="hero">
       <div class="container hero-flex">
         <div class="hero-text-container">
-          <h1>Backend & <br />Full-Stack<br /><span class="gradient">Developer</span></h1>
+          <h1>
+            Backend & <br />
+            Full-Stack<br />
+            <span class="gradient">Developer</span>
+          </h1>
+
           <p class="hero-sub">
-            Costruisco applicazioni web scalabili, API performanti e interfacce moderne. Dal database alla UI, con architettura pulita e codice manutenibile.
+            Costruisco applicazioni web scalabili, API performanti e interfacce
+            moderne. Dal database alla UI, con architettura pulita e codice
+            manutenibile.
           </p>
+
           <div class="hero-buttons">
             <a href="#projects" class="btn-primary">Vedi Progetti</a>
-            <a href="https://github.com/Jacopo-Sassi" class="btn-secondary" target="_blank">GitHub</a>
+            <a
+              href="https://github.com/Jacopo-Sassi"
+              class="btn-secondary"
+              target="_blank"
+              >GitHub</a
+            >
           </div>
         </div>
+
         <div class="hero-image">
-          <img src="assets/profile.jpg" alt="Jacopo Sassi - Full Stack Developer" />
+          <img
+            src="assets/profile.jpg"
+            alt="Jacopo Sassi - Full Stack Developer"
+          />
         </div>
       </div>
     </section>
@@ -65,15 +85,21 @@
     <section id="skills" class="section">
       <div class="container">
         <h2>Tech Stack</h2>
+
         <div class="skills-grid">
           <div class="skill-card">
             <h3>Back-End</h3>
-            <p>Java · SQL · NoSQL · REST API · MVC · Authentication · PHP · Python · Node.js · Laravel · Spring Boot</p>
+            <p>
+              Java · SQL · NoSQL · REST API · MVC · Authentication · PHP ·
+              Python · Node.js · Laravel · Spring Boot
+            </p>
           </div>
+
           <div class="skill-card">
             <h3>Front-End</h3>
             <p>React · JavaScript · HTML5 · CSS3 · Vue.js</p>
           </div>
+
           <div class="skill-card">
             <h3>DevOps</h3>
             <p>Git · Docker · CI/CD Basics · Bash Linux</p>
@@ -82,15 +108,59 @@
       </div>
     </section>
 
+    <!-- Differentiator -->
+    <section class="section alt">
+      <div class="container">
+        <h2>🧠 Mentalità tecnica</h2>
+
+        <p>
+          Ho una formazione in ambito archeologico, ma oggi progetto e sviluppo
+          software. Il punto non è il cambio di settore: è il metodo.
+        </p>
+        <br />
+        <p>
+          L’archeologia mi ha insegnato a scomporre strutture complesse,
+          analizzare relazioni tra elementi e ricostruire sistemi partendo dai
+          dettagli. Oggi applico lo stesso approccio alla progettazione di API,
+          database e architetture full-stack.
+        </p>
+        <br />
+        <ul>
+          <li>Analisi strutturale prima dell’implementazione del codice</li>
+          <li>Progettazione consapevole di modelli dati e relazioni</li>
+          <li>
+            Attenzione alla separazione tra logica, persistenza e presentazione
+          </li>
+          <li>Debugging metodico e orientato alla causa, non al sintomo</li>
+          <li>Organizzazione del repository con struttura scalabile</li>
+        </ul>
+        <br />
+        <p>
+          Non mi limito a “far funzionare” un’applicazione. Mi interessa capire
+          come è costruita e come può evolvere.
+        </p>
+      </div>
+    </section>
+
     <!-- Projects -->
-    <section id="projects" class="section alt">
+    <section id="projects" class="section">
       <div class="container">
         <h2>Progetti Selezionati</h2>
 
         <div class="project-card">
-          <img src="assets/photo-gallery.jpg" alt="Screenshot Photo Gallery" class="project-screenshot"/>
-          <h3>Photo Gallery </h3>
-          <p>Sviluppato un'applicazione web full-stack per la gestione di album fotografici utilizzando Spring Boot per il backend e HTML/CSS/JavaScript per il frontend. Implementate operazioni CRUD complete (Create, Read, Update, Delete) per l'upload, modifica ed eliminazione di immagini, con architettura REST API e gestione file lato server.</p>
+          <img
+            src="assets/photo-gallery.jpg"
+            alt="Screenshot Photo Gallery"
+            class="project-screenshot"
+          />
+
+          <h3>Photo Gallery</h3>
+
+          <p>
+            Applicazione full-stack per la gestione di album fotografici con
+            architettura REST API e operazioni CRUD complete.
+          </p>
+
           <div class="badge-container">
             <span class="badge">Java</span>
             <span class="badge">SQL</span>
@@ -100,16 +170,29 @@
             <span class="badge">CSS</span>
             <span class="badge">JavaScript</span>
           </div>
+
           <div class="links">
-            <a href="https://github.com/Jacopo-Sassi/PhotoSpringBoot/tree/master">GitHub</a>
+            <a
+              href="https://github.com/Jacopo-Sassi/PhotoSpringBoot/tree/master"
+              >GitHub</a
+            >
           </div>
         </div>
 
         <div class="project-card">
-          <img src="assets/ricette-ai.jpg" alt="Screenshot Ricette AI" class="project-screenshot"/>
-          <h3>Ricette AI – Web App di Ricette </h3>
+          <img
+            src="assets/ricette-ai.jpg"
+            alt="Screenshot Ricette AI"
+            class="project-screenshot"
+          />
+
+          <h3>Ricette AI</h3>
+
           <p>
-Ho sviluppato Ricette AI, una web app dedicata alla gestione e consultazione di ricette di cucina, come progetto pratico durante il percorso ITS. L’obiettivo era consolidare competenze in MongoDB, Node.js e Vue.js, realizzando un’app completa front-end + back-end.</p>
+            Web app full-stack per gestione ricette sviluppata con Node.js,
+            MongoDB e Vue.js durante il percorso ITS.
+          </p>
+
           <div class="badge-container">
             <span class="badge">Vue.js</span>
             <span class="badge">JavaScript</span>
@@ -117,39 +200,60 @@ Ho sviluppato Ricette AI, una web app dedicata alla gestione e consultazione di 
             <span class="badge">Node.js</span>
             <span class="badge">MongoDB</span>
           </div>
+
           <div class="links">
             <a href="https://github.com/Jacopo-Sassi/ricette-app">GitHub</a>
           </div>
         </div>
 
         <div class="project-card">
-          <img src="assets/football-training-platform.jpg" alt="Screenshot Football Training Platform" class="project-screenshot"/>
-          <h3>
-Football Training Platform</h3>
-          <p>Ho progettato e sviluppato una web application con React dedicata al miglioramento atletico dei calciatori. L’app integra:
-Dashboard interattiva per il tracking degli allenamenti.
-Programmi personalizzati basati sulle performance individuali.
-Metriche di performance dettagliate per monitoraggio e analisi.
-Questo progetto dimostra le mie competenze in sviluppo frontend avanzato, UX orientata all’atleta e applicazioni sport-tech innovative.</p>
+          <img
+            src="assets/football-training-platform.jpg"
+            alt="Screenshot Football Training Platform"
+            class="project-screenshot"
+          />
+
+          <h3>Football Training Platform</h3>
+
+          <p>
+            Applicazione React per il monitoraggio delle performance atletiche
+            con dashboard interattiva e metriche personalizzate.
+          </p>
+
           <div class="badge-container">
             <span class="badge">React</span>
             <span class="badge">CSS</span>
           </div>
+
           <div class="links">
             <a href="https://github.com/Jacopo-Sassi/sito-react">GitHub</a>
           </div>
         </div>
-
       </div>
     </section>
 
     <!-- Contact -->
-    <section id="contact" class="section">
+    <section id="contact" class="section alt">
       <div class="container contact">
         <h2>Contatti</h2>
-        <p>Email: <a href="mailto:sassijacopp@gmail.com">sassijacopp@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/jacopo-sassi-31200b33b/" target="_blank">linkedin.com/in/jacopo-sassi-31200b33b</a></p>
-        <p>GitHub: <a href="https://github.com/Jacopo-Sassi" target="_blank">github.com/Jacopo-Sassi</a></p>
+        <p>
+          Email:
+          <a href="mailto:sassijacopp@gmail.com">sassijacopp@gmail.com</a>
+        </p>
+        <p>
+          LinkedIn:
+          <a
+            href="https://www.linkedin.com/in/jacopo-sassi-31200b33b/"
+            target="_blank"
+            >linkedin.com/in/jacopo-sassi-31200b33b</a
+          >
+        </p>
+        <p>
+          GitHub:
+          <a href="https://github.com/Jacopo-Sassi" target="_blank"
+            >github.com/Jacopo-Sassi</a
+          >
+        </p>
         <p class="availability">🟢 Aperto a posizioni Junior</p>
       </div>
     </section>
@@ -157,6 +261,5 @@ Questo progetto dimostra le mie competenze in sviluppo frontend avanzato, UX ori
     <footer>
       <p>© 2026 Jacopo Sassi</p>
     </footer>
-
   </body>
 </html>
