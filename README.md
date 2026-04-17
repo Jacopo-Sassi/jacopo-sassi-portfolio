@@ -1,51 +1,75 @@
-🚀 Jacopo Sassi – Full-Stack Developer Portfolio
+# 🚀 Jacopo Sassi – Software Developer Portfolio
 
-Questo repository contiene il mio portfolio professionale come sviluppatore Full-Stack.
+This repository contains my personal portfolio as a software developer.
 
-Creo applicazioni web robuste e scalabili, con particolare attenzione a:
+I am currently working on a production mobile application, building real features, integrating APIs and improving user experience in a real-world environment.
 
-Architetture modulari
+---
 
-Clean Code & best practices
+## 🧠 What I do
 
-Performance e ottimizzazione database
+I focus on building real applications, not just projects.
 
-Integrazione API REST
+My work includes:
+- Developing mobile features with React Native
+- Integrating and consuming REST APIs
+- Improving performance and user experience
+- Writing clean, maintainable and scalable code
 
-Esperienza utente chiara e funzionale
+---
 
-🛠 Stack principale
+## 🛠 Tech Stack
 
-Back-End: Java, SQL, REST API
+**Core**
+- React Native
+- JavaScript
+- REST APIs
+- API Integration
 
-Front-End: HTML5, CSS3, JavaScript, React
+**Frontend**
+- React
+- HTML5
+- CSS3
 
-Tooling: Git, Docker (base), CI/CD basics
+**Backend & Tools**
+- Docker
+- Java Spring Boot
+- SQL
+- NoSQL
+- Git
+- Debugging
 
-Altri linguaggi: Python (base), PHP (base)
+---
 
-🎯 Obiettivo del progetto
+## 🎯 Goal of this portfolio
 
-Dimostrare competenze reali nella progettazione e sviluppo di applicazioni web complete, dal database all'interfaccia utente, seguendo principi di:
+This portfolio is designed to showcase how I approach software development:
 
-Manutenibilità
+- From problem understanding to implementation
+- From API integration to user experience
+- From code structure to real-world constraints
 
-Scalabilità
+Each project reflects a practical approach to building applications that work, scale and can be maintained over time.
 
-Separazione delle responsabilità
+---
 
-Struttura RESTful
+## 📌 Project structure
 
-📌 Struttura del portfolio
+Each project follows a clear development flow:
 
-Ogni progetto incluso segue questa logica:
+**Problem → Analysis → Architecture → Implementation → Result**
 
-Problema → Analisi → Architettura → Implementazione → Risultato
+---
 
-🟢 Attualmente disponibile per:
+## 🚀 Current focus
 
-Stage
+- Mobile development (React Native)
+- API integration
+- Building real-world applications
 
-Collaborazioni
+---
 
-Junior Developer position
+## 📫 Contact
+
+- Portfolio: https://jacopo-sassi.github.io/jacopo-sassi-portfolio/
+- GitHub: https://github.com/Jacopo-Sassi
