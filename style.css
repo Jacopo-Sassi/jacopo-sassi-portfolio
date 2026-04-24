@@ -187,7 +187,7 @@ h2 {
 }
 
 .mentalita-list {
-  list-style: none; /* Rimuoviamo il punto di default che crea problemi */
+  list-style: none; 
   padding: 0;
   margin: 1.5rem 0;
 }
@@ -201,16 +201,16 @@ h2 {
 }
 
 .mentalita-list li strong {
-  color: #fff; /* Rende il titoletto più brillante */
-  margin-right: 4px; /* Aggiunge lo spazio esatto dopo i due punti */
-  display: inline-block; /* Necessario per applicare il margine correttamente */
+  color: #fff;
+  margin-right: 4px;
+  display: inline-block;
 }
 
 .bullet {
-  color: #ffffff; /* Verde Spotify per richiamare Music Pulse */
+  color: #ffffff;
   font-weight: bold;
   margin-right: 12px;
-  flex-shrink: 0; /* Impedisce alla freccetta di schiacciarsi */
+  flex-shrink: 0; 
 }
 
 .closing-text {
