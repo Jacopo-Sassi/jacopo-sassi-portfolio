@@ -187,7 +187,7 @@ h2 {
 }
 
 .mentalita-list {
-  list-style: none; 
+  list-style: none;
   padding: 0;
   margin: 1.5rem 0;
 }
@@ -210,7 +210,7 @@ h2 {
   color: #ffffff;
   font-weight: bold;
   margin-right: 12px;
-  flex-shrink: 0; 
+  flex-shrink: 0;
 }
 
 .closing-text {
@@ -405,6 +405,12 @@ footer {
 
   .skills-grid {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .mentalita-list li {
+    flex-direction: row; /* Mantiene il bullet a sinistra */
   }
 }
 
