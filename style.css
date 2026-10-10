@@ -97,3 +97,24 @@ footer{border-top:1px solid var(--border);padding:26px 0;color:var(--muted);font
 .lang-toggle{padding:7px 10px;border:1px solid var(--border);border-radius:8px;color:var(--blue);text-decoration:none;font-size:12px;font-weight:800;letter-spacing:.05em;white-space:nowrap}
 .lang-toggle:hover{border-color:var(--blue);background:rgba(116,181,255,.1)}
 @media(max-width:540px){.nav{gap:10px}.lang-toggle{margin-left:auto}.nav-cta{padding:8px 10px}}
+
+
+/* Backend project: CSS illustration, no missing screenshot asset */
+.project-feature-visual{
+  min-height:220px;display:flex;flex-direction:column;align-items:center;justify-content:center;
+  gap:12px;background:radial-gradient(circle at 30% 10%,#21415f 0%,#102131 45%,#0b1420 100%);
+  border-bottom:1px solid var(--border)
+}
+.visual-icon{font-size:54px;line-height:1;color:#75bbff;font-family:monospace;font-weight:700}
+.visual-label{font-size:11px;letter-spacing:.16em;color:#a5c2d7;font-weight:700;text-align:center}
+.cert-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.cert-card{border:1px solid var(--border);border-radius:15px;background:var(--surface);padding:23px;min-width:0}
+.cert-card h3{font-size:17px;color:var(--blue);margin:0 0 17px}
+.cert-card ul{list-style:none;padding:0;margin:0}
+.cert-card li{padding:11px 0;border-top:1px solid var(--border);display:flex;flex-direction:column;gap:4px}
+.cert-name{font-size:13px;color:#e4edf6;line-height:1.5}
+.cert-date{font-size:11px;color:var(--muted)}
+.cert-footnote{font-size:12px;color:var(--muted);margin-top:20px;max-width:850px}
+@media(max-width:900px){.cert-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:680px){.cert-grid{grid-template-columns:1fr}.nav-links{gap:9px}.nav-links a{font-size:11px}}
+@media(max-width:460px){.nav-links a[href="#experience"],.nav-links a[href="#skills"]{display:none}}
