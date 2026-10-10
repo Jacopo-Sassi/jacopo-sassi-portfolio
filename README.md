@@ -1,75 +1,140 @@
-# 🚀 Jacopo Sassi – Software Developer Portfolio
+# 🚀 Jacopo Sassi — Full Stack Developer Portfolio
 
-This repository contains my personal portfolio as a software developer.
+Welcome to my personal software development portfolio!
 
-I am currently working on a production mobile application, building real features, integrating APIs and improving user experience in a real-world environment.
+I'm a **Junior Software Developer based in Verona, Italy**, with professional experience in frontend, backend and mobile application development.
 
----
+I've worked with **Java, Spring Boot, React, Node.js, React Native and PostgreSQL**, contributing to production applications, developing REST APIs and implementing features across different layers of the software stack.
 
-## 🧠 What I do
+I'm currently exploring new opportunities as a **Junior Full Stack Developer, Java Developer or Software Engineer**, ideally within an international, collaborative engineering team.
 
-I focus on building real applications, not just projects.
-
-My work includes:
-- Developing mobile features with React Native
-- Integrating and consuming REST APIs
-- Improving performance and user experience
-- Writing clean, maintainable and scalable code
+🌐 **[Visit My Portfolio](https://jacopo-sassi.github.io/jacopo-sassi-portfolio/)**
 
 ---
 
-## 🛠 Tech Stack
+## 👨‍💻 Professional Experience
 
-**Core**
-- React Native
-- JavaScript
+### HAT Music — React Native / Full Stack Development
+*July 2026 – October 2026*
+
+Contributed to the development of a production mobile platform built with React Native, Node.js and PostgreSQL.
+
+**Key contributions:**
+- Opened **88 pull requests, with 85 successfully merged** into the product over three months.
+- Implemented features including chat archiving, read receipts, user search, country filtering and phone-based onboarding.
+- Worked across frontend, backend and database layers.
+- Developed Android notifications with avatars and introduced backend tests for a shared notification function.
+- Configured automated backend code-quality checks, including strict linting, coverage and unused-code analysis.
+- Collaborated through code reviews and maintained features supporting seven languages.
+
+### Intesys — Junior Software Developer
+*May 2025 – March 2026*
+
+Contributed to web application development using Java, Spring Boot, React and PostgreSQL.
+
+**Key contributions:**
+- Developed REST API endpoints using Java and Spring Boot.
+- Worked with controllers, services and repositories to implement backend functionality.
+- Designed relational database structures and wrote PostgreSQL queries.
+- Integrated React frontend components with backend services.
+- Used Git for version control and team collaboration.
+
+---
+
+## 🛠️ Tech Stack
+
+**Backend Development**
+- Java
+- Spring Boot
+- Node.js
 - REST APIs
+- PHP (basic knowledge)
+
+**Frontend Development**
+- React
+- TypeScript
+- JavaScript
+- HTML5 / CSS3
+
+**Mobile Development**
+- React Native
+
+**Databases**
+- PostgreSQL
+- SQL
+
+**Tools & Engineering Practices**
+- Git
+- Code Review
+- Debugging
+- Testing
 - API Integration
 
-**Frontend**
-- React
-- HTML5
-- CSS3
+---
 
-**Backend & Tools**
-- Docker
-- Java Spring Boot
-- SQL
-- NoSQL
-- Git
-- Debugging
+## 📂 Featured Projects
+
+### 🎵 MusicPulse — Mobile Music Application
+
+**Technologies:** React Native, Spotify API
+
+A mobile music application integrating Spotify services, with a focus on API communication and application state management.
+
+🔗 [View Repository](https://github.com/Jacopo-Sassi/MusicPulse)
+
+### 🍽️ Food Showcase — React Web Application
+
+**Technologies:** React, TypeScript
+
+A web application developed for a real client in the food industry, focused on brand presentation, user interface design and usability.
+
+🔗 [View Repository](https://github.com/Jacopo-Sassi/Gerry-Porchetta-Business_Site)
 
 ---
 
-## 🎯 Goal of this portfolio
+## 🎓 Education & Continuous Learning
 
-This portfolio is designed to showcase how I approach software development:
+**Higher Technical Diploma — Digital Transformation Specialist (Web Development)**
 
-- From problem understanding to implementation
-- From API integration to user experience
-- From code structure to real-world constraints
+ITS LAST | 2024–2026
 
-Each project reflects a practical approach to building applications that work, scale and can be maintained over time.
+My education focused on software development, web technologies, application architecture and databases.
 
----
+I also continue to develop my technical skills through hands-on projects and courses on Frontend Masters and freeCodeCamp.
 
-## 📌 Project structure
+**Selected completed courses:**
+- React and TypeScript, v3 — Frontend Masters
+- Fullstack TypeScript, v2 — Frontend Masters
+- Intermediate React, v6 — Frontend Masters
+- Advanced Redux with Redux Toolkit — Frontend Masters
+- React Native, v3 — Frontend Masters
 
-Each project follows a clear development flow:
-
-**Problem → Analysis → Architecture → Implementation → Result**
-
----
-
-## 🚀 Current focus
-
-- Mobile development (React Native)
-- API integration
-- Building real-world applications
+Additional course completion certificates are available on request.
 
 ---
 
-## 📫 Contact
+## 🎯 What I'm Looking For
 
-- Portfolio: https://jacopo-sassi.github.io/jacopo-sassi-portfolio/
-- GitHub: https://github.com/Jacopo-Sassi
+I'm interested in opportunities where I can contribute to software development while continuing to strengthen my technical expertise.
+
+**Preferred roles:**
+- Junior Full Stack Developer (Java / React)
+- Junior Java / Spring Boot Developer
+- React / TypeScript Developer
+- Junior Software Engineer
+
+I'm also open to opportunities involving Node.js and React Native.
+
+📍 **Location:** Verona, Italy
+
+🌍 **Availability:** Remote opportunities from Italy, including European companies, or hybrid positions in the Verona area.
+
+---
+
+## 📫 Let's Connect
+
+I'm always open to discussing software development, interesting projects and professional opportunities.
+
+- 🌐 **Portfolio:** [jacopo-sassi.github.io](https://jacopo-sassi.github.io/jacopo-sassi-portfolio/)
+- 💻 **GitHub:** [Jacopo-Sassi](https://github.com/Jacopo-Sassi)
+- 🔗 **LinkedIn:** [Jacopo Sassi](https://www.linkedin.com/in/jacopo-sassi-31200b33b/)
