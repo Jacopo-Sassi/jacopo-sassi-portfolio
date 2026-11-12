@@ -15,11 +15,13 @@ I'm currently exploring new opportunities as a **Junior Full Stack Developer, Ja
 ## 👨‍💻 Professional Experience
 
 ### HAT Music — React Native / Full Stack Development
-*July 2026 – October 2026*
+
+_July 2026 – October 2026_
 
 Contributed to the development of a production mobile platform built with React Native, Node.js and PostgreSQL.
 
 **Key contributions:**
+
 - Opened **88 pull requests, with 85 successfully merged** into the product over three months.
 - Implemented features including chat archiving, read receipts, user search, country filtering and phone-based onboarding.
 - Worked across frontend, backend and database layers.
@@ -28,11 +30,13 @@ Contributed to the development of a production mobile platform built with React 
 - Collaborated through code reviews and maintained features supporting seven languages.
 
 ### Intesys — Junior Software Developer
-*May 2025 – March 2026*
+
+_May 2025 – March 2026_
 
 Contributed to web application development using Java, Spring Boot, React and PostgreSQL.
 
 **Key contributions:**
+
 - Developed REST API endpoints using Java and Spring Boot.
 - Worked with controllers, services and repositories to implement backend functionality.
 - Designed relational database structures and wrote PostgreSQL queries.
@@ -44,6 +48,7 @@ Contributed to web application development using Java, Spring Boot, React and Po
 ## 🛠️ Tech Stack
 
 **Backend Development**
+
 - Java
 - Spring Boot
 - Node.js
@@ -51,19 +56,23 @@ Contributed to web application development using Java, Spring Boot, React and Po
 - PHP (basic knowledge)
 
 **Frontend Development**
+
 - React
 - TypeScript
 - JavaScript
 - HTML5 / CSS3
 
 **Mobile Development**
+
 - React Native
 
 **Databases**
+
 - PostgreSQL
 - SQL
 
 **Tools & Engineering Practices**
+
 - Git
 - Code Review
 - Debugging
@@ -103,6 +112,7 @@ My education focused on software development, web technologies, application arch
 I also continue to develop my technical skills through hands-on projects and courses on Frontend Masters and freeCodeCamp.
 
 **Selected completed courses:**
+
 - React and TypeScript, v3 — Frontend Masters
 - Fullstack TypeScript, v2 — Frontend Masters
 - Intermediate React, v6 — Frontend Masters
@@ -118,6 +128,7 @@ Additional course completion certificates are available on request.
 I'm interested in opportunities where I can contribute to software development while continuing to strengthen my technical expertise.
 
 **Preferred roles:**
+
 - Junior Full Stack Developer (Java / React)
 - Junior Java / Spring Boot Developer
 - React / TypeScript Developer
